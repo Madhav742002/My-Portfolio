@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Madhav | Full Stack Web Developer</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero" id="hero">
+            <div class="canvas">
+                <canvas class="connecting-dots"></canvas>
+            </div>
+            <div class="heading">
+                <div class="heading__line-1">
+                    Hello, I'm <span>Madhav.</span>
+                    
+                </div>
+                <div class="heading__line-2">I'm a full stack web developer.</div>
+                <a href="#about" class="heading__link">
+                    <div class="heading-cta">
+                        View my work 
+                        <svg class="heading__arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <title>arrow-right</title>
+                            <path d="M11.293 5.707l5.293 5.293h-11.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h11.586l-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l7-7c0.092-0.092 0.166-0.202 0.217-0.324 0.101-0.245 0.101-0.521 0-0.766-0.049-0.118-0.121-0.228-0.217-0.324l-7-7c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <nav class="navigation-bar">
+            <ul class="navigation">
+                <li class="navigation__item navigation__item--active" id="nav-hero">
+                    <a href="#hero">Home</a>
+                </li>
+                <li class="navigation__item" id="nav-about">
+                    <a href="#about">About</a>
+                </li>
+                <li class="navigation__item" id="nav-projects">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="navigation__item" id="nav-contact">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+       
+        <section class="about" id="about">
+            <h2 class="about__heading section-heading">About</h2>
+            <div class="about__content">
+                <div class="profile">
+                    <p class="profile__blurb">Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit and playing guitar.</p>
+                </div>
+                <div class="skills">
+                    <div class="skills__row">
+                        <div class="skills__item skills__item--html">
+                            <img src="html.png" alt=""/>
+                            <div class="skills__item-name">HTML</div>
+                        </div>
+                        <div class="skills__item skills__item--react">
+                            <img src="react.png" alt=""/>
+                            <div class="skills__item-name">REACT</div>
+                        </div>
+                        <div class="skills__item skills__item--npm">
+                            <img src="express.png" alt=""/>
+                            <div class="skills__item-name">EXPRESS.JS</div>
+                        </div>
+                    </div>
+                    <div class="skills__row">
+                        <div class="skills__item skills__item--js">
+                            <img src="js.png" alt=""/>
+                            <div class="skills__item-name">JAVASCRIPT</div>
+                        </div>
+                        <div class="skills__item skills__item--css">
+                            <img src="css image.png" alt=""/>
+                            <div class="skills__item-name">CSS</div>
+                        </div>
+                        <div class="skills__item skills__item--python">
+                            <img src="mongo.png" alt=""/>
+                            <div class="skills__item-name">MONGODB</div>
+                        </div>
+                        <div class="skills__item skills__item--git">
+                            <img src="git.png" alt=""/>
+                            <div class="skills__item-name">GIT</div>
+                        </div>
+                    </div>
+                    <div class="skills__row">
+                        <div class="skills__item skills__item--sass">
+                            <img src="sass.png" alt=""/>
+                            <div class="skills__item-name">SASS</div>
+                        </div>
+                        <div class="skills__item skills__item--webpack">
+                            <img src="nextjs.png" alt=""/>
+                            <div class="skills__item-name">NEXT.JS</div>
+                        </div>
+                        <div class="skills__item skills__item--r">
+                            <img src="node.png" alt=""/>
+                            <div class="skills__item-name">NODE.JS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="projects__heading section-heading">Projects</h2>
+            <div class="project project-left">
+                <a href="https://lifeinvadersocial.herokuapp.com/" target="_blank">
+                    <div class="project__image-container weather">
+                        <div class="project__image-image">
+                            <img src="lifeinvader.png" alt=""/>
+                        </div>
+                    </div>
+                </a>
+                <div class="project__info">
+                    <h3 class="project__title">
+                        Social Media App
+                    </h3>
+                    <p class="project__description">Full stack social media application built with React, Node.js, Express.js, MongoDB, Socket.io and AWS S3.</p>
+                    <a href="https://lifeinvadersocial.herokuapp.com/" target="_blank">
+                        <div class="project__live-2">Live app</div>
+                    </a>
+                    <a href="https://github.com/bscottnz/life-invader-frontend" target="_blank">
+                        <div class="project__live-2">learn more</div>
+                    </a>
+                </div>
+            </div>
+            <div class="project project-right">
+                <div class="project__info">
+                    <h3 class="project__title">
+                        Chat<br/>Messaging App
+                    </h3>
+                    <p class="project__description">Instant messaging application built with Next.JS, Firebase and Chakra UI.</p>
+                    <a href="https://nextjs-chakra-chatapp-qnhb6dq42-bscottnz.vercel.app/" target="_blank">
+                        <div class="project__live-2">live app</div>
+                    </a>
+                    <a href="https://github.com/bscottnz/nextjs-chakra-chatapp" target="_blank">
+                        <div class="project__live-2">learn more</div>
+                    </a>
+                </div>
+                <a href="https://nextjs-chakra-chatapp-qnhb6dq42-bscottnz.vercel.app/" target="_blank">
+                    <div class="project__image-container todo">
+                        <div class="project__image-image">
+                            <img src="chatapp.png" alt=""/>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="project project-left">
+                <a href="https://bscottnz.github.io/esketch/" target="_blank">
+                    <div class="project__image-container retro">
+                        <div class="project__image-image">
+                            <img src="retro.png" alt=""/>
+                        </div>
+                    </div>
+                </a>
+                <div class="project__info">
+                    <h3 class="project__title">
+                        Retro-Sketch<br/>Pixel Sketch App
+                    </h3>
+                    <p class="project__description">Create pixel art with a variety of drawing tools.</p>
+                    <a href="https://bscottnz.github.io/esketch/" target="_blank">
+                        <div class="project__live-2">Live app</div>
+                    </a>
+                    <a href="https://github.com/bscottnz/esketch" target="_blank">
+                        <div class="project__live-2">learn more</div>
+                    </a>
+                </div>
+            </div>
+            <div class="project project-right">
+                <div class="project__info">
+                    <h3 class="project__title">
+                        // TO-DO<br/>Productivity App
+                    </h3>
+                    <p class="project__description">Keep track of tasks with custom project folders and notes.</p>
+                    <a href="https://bscottnz.github.io/todo/" target="_blank">
+                        <div class="project__live-2">live app</div>
+                    </a>
+                    <a href="https://github.com/bscottnz/todo" target="_blank">
+                        <div class="project__live-2">learn more</div>
+                    </a>
+                </div>
+                <a href="https://bscottnz.github.io/todo/" target="_blank">
+                    <div class="project__image-container todo">
+                        <div class="project__image-image">
+                            <img src="todo.png" alt=""/>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact__heading section-heading">Contact</h2>
+            <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+            <form id="myForm" onsubmit="showThankYouMessage(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="comment">Comments:</label>
+                <input type="text" id="contact" name="contact" required>
+                <button type="button" class="contact__form-submit" id="myForm">Submit</button>
+                
+            </form>
+        </section>
+        <footer class="footer">
+            <a href="#hero">
+                <div class="return-home">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
+                        <title></title>
+                        <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+                    </svg>
+                </div>
+            </a>
+            <div class="socials">
+                <a href="https://github.com/users/Madhav742002/projects/1" target="_blank">
+                    <div class="socials__github">
+                        <img src="github-logo.png" alt=""/>
+                    </div>
+                </a>
+                <a href="mailto:madhavkmar@gmail.com" target="_blank">
+                    <div class="socials__email">
+                        <img src="mail.png" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <p class="copyright">Madhav ©2024</p>
+        </footer>
+    </body>
+</html>
